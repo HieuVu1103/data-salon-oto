@@ -21,6 +21,16 @@ The SQL script in this project covers:
   * Order Details
   * Services
   * Inventory (import/export)
+    
+---
+
+## 🗂️ Database Schema
+
+### 🔹 Sales ERD
+![Sales ERD](images/Sale.png)
+
+### 🔹 Services ERD
+![Services ERD](images/Service.png)
 
 ---
 
@@ -90,4 +100,4 @@ The Power BI dashboard focuses on **sales and revenue analysis**:
 
 ## 👨‍💻 Author
 
-Hieu Vu - Aspiring Data Analyst
+Vu Minh Hieu
