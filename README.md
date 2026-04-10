@@ -1,103 +1,105 @@
-# 📊 Sales Data Analysis (SQL + Power BI)
+# 📊 Phân Tích Dữ Liệu Bán Hàng (SQL + Power BI)
 
-## 📌 Overview
+## 📌 Tổng quan
 
-This project focuses on analyzing sales data to understand revenue performance, product trends, and order behavior.
+Dự án này tập trung vào việc phân tích dữ liệu bán hàng nhằm hiểu rõ hiệu suất doanh thu, xu hướng sản phẩm và hành vi đơn hàng.
 
-The data is processed using SQL and visualized in Power BI to create an interactive sales dashboard.
-
----
-
-## 🗂️ SQL Development
-
-The SQL script in this project covers:
-
-### 🔹 Database Design
-
-* Created tables for:
-
-  * Products
-  * Orders
-  * Order Details
-  * Services
-  * Inventory (import/export)
-    
----
-
-## 🗂️ Database Schema
-
-### 🔹 Sales ERD
-![Sales ERD](images/Sale.png)
-
-### 🔹 Services ERD
-![Services ERD](images/Service.png)
+Dữ liệu được xử lý bằng SQL và trực quan hóa bằng Power BI để xây dựng dashboard tương tác hỗ trợ ra quyết định.
 
 ---
 
-### 🔹 Data Insertion
+## 🗂️ Phát triển SQL
 
-* Inserted sample data to simulate real-world business operations
-* Includes sales transactions and order records
+### 🔹 Thiết kế cơ sở dữ liệu
 
----
+Thiết kế và xây dựng các bảng dữ liệu quan hệ, bao gồm:
 
-### 🔹 Data Processing & Analysis
-
-* Joined multiple tables to build meaningful datasets
-* Calculated total revenue from sales
-* Aggregated product sales (quantity & revenue)
-* Analyzed order status (completed, cancelled, pending)
-* Prepared clean data for Power BI visualization
+* Sản phẩm
+* Đơn hàng
+* Chi tiết đơn hàng
+* Dịch vụ
+* Kho (Nhập/Xuất)
 
 ---
 
-## 📊 Power BI – Sales Dashboard
+## 🗂️ Sơ đồ cơ sở dữ liệu
 
-The Power BI dashboard focuses on **sales and revenue analysis**:
+### 🔹 ERD Bán hàng
 
-### 🔹 Revenue Overview
+<p align="center">
+  <img src="images/Sale.png" width="600"/>
+</p>
 
-* Total revenue from sales
-* Revenue trend over time (daily/monthly)
+### 🔹 ERD Dịch vụ
 
----
-
-### 🔹 Product Performance
-
-* Top-selling products based on quantity
-* Revenue contribution by product
+<p align="center">
+  <img src="images/Service.png" width="600"/>
+</p>
 
 ---
 
-### 🔹 Order Status Analysis
+### 🔹 Thêm dữ liệu
 
-* Distribution of order statuses
-* Comparison between completed and cancelled orders
-
----
-
-## 📈 Key Insights
-
-* A small number of products contribute most of the total revenue
-* Some products have high sales volume but lower revenue contribution
-* Cancelled orders account for a portion of total orders
-* Revenue trends vary over time, indicating potential seasonal patterns
+* Thêm dữ liệu mẫu để mô phỏng hoạt động kinh doanh thực tế
+* Bao gồm dữ liệu giao dịch bán hàng và đơn hàng
 
 ---
 
-## 🛠️ Tools Used
+### 🔹 Xử lý & phân tích dữ liệu
 
-* SQL (data processing and analysis)
-* Power BI (data visualization and dashboard creation)
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard](images/PowerBI.png)
+* Kết hợp nhiều bảng (JOIN) để tạo bộ dữ liệu phân tích
+* Tính toán tổng doanh thu
+* Tổng hợp hiệu suất sản phẩm (số lượng, doanh thu)
+* Phân tích trạng thái đơn hàng (Hoàn thành, Hủy, Đang xử lý)
+* Chuẩn bị dữ liệu cho việc trực quan hóa trên Power BI
 
 ---
 
-## 👨‍💻 Author
+## 📊 Power BI – Dashboard Bán hàng
 
-Vu Minh Hieu
+Dashboard tập trung vào **phân tích doanh thu và hiệu suất bán hàng**:
+
+### 🔹 Tổng quan doanh thu
+
+* Tổng doanh thu
+* Xu hướng doanh thu theo thời gian
+
+### 🔹 Hiệu suất sản phẩm
+
+* Sản phẩm bán chạy
+* Tỷ trọng doanh thu theo sản phẩm
+
+### 🔹 Phân tích đơn hàng
+
+* Tỷ lệ trạng thái đơn hàng
+* So sánh đơn hoàn thành và đơn bị hủy
+
+---
+
+## 📈 Insight chính
+
+* Một số ít sản phẩm đóng góp phần lớn doanh thu
+* Có sản phẩm bán nhiều nhưng đóng góp doanh thu thấp
+* Đơn hàng bị hủy chiếm một tỷ lệ đáng kể
+* Doanh thu biến động theo thời gian (có thể có yếu tố mùa vụ)
+
+---
+
+## 🛠️ Công cụ sử dụng
+
+* SQL (xử lý và phân tích dữ liệu)
+* Power BI (trực quan hóa và dashboard)
+
+---
+
+## 📸 Dashboard
+
+<p align="center">
+  <img src="images/PowerBI.png" width="700"/>
+</p>
+
+---
+
+## 👨‍💻 Tác giả
+
+**Vu Minh Hieu**
