@@ -84,7 +84,7 @@ The Power BI dashboard focuses on **sales and revenue analysis**:
 
 ## 📸 Dashboard Preview
 
-![Dashboard](IMG/dashboard.png)
+![Dashboard](images/PowerBI.png)
 
 ---
 
